@@ -1,6 +1,6 @@
 # UI Rules skills
 
-Agent skills for [UI Rules](https://uirules.com): they teach a coding agent to build interfaces that follow a brand's design system through the UI Rules MCP server.
+Agent skills for [UI Rules](https://uirules.com): they teach a coding agent to build interfaces and write copy that follow a brand's rules, from its identity and content to its components and design tokens, through the UI Rules MCP server.
 
 | Skill | What it does |
 | --- | --- |
