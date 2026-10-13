@@ -4,7 +4,7 @@ Agent skills for [UI Rules](https://uirules.com): they teach a coding agent to b
 
 | Skill | What it does |
 | --- | --- |
-| [`ui-rules`](skills/ui-rules/SKILL.md) | Reads the brand's rules and design tokens before building UI, and checks the work against them. |
+| [`ui-rules`](skills/ui-rules/SKILL.md) | Builds UI with the brand's rules, design tokens and assets, checks the work against them, and changes them when asked. |
 
 ## Install
 
