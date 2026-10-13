@@ -11,7 +11,7 @@ UI Rules manages a brand system and serves it to AI tools through the `uirules` 
 ## How a brand is shaped
 
 - **Organization → brand → project.** A project inherits its brand's rules and tokens and may add or override some. Every tool takes slugs; when the connection's URL fixes a level, the tools stop asking for it. Otherwise find them with `list_organizations`, `list_brands` and `list_projects`, and ask the user when more than one fits. Notes, verification and reports work on a project, so settle the project before starting.
-- **Rules are the core, and belong to nodes**: an area, a component or a block, under the brand's root areas (Styles, Components, Blocks, Iconography, Content, Accessibility, Brand assets, plus any the brand adds). Each rule has a key, a guidance (`do`, `dont`, `caution`, `info`), an optional severity (`must`, `should`, `may`) and a body.
+- **Rules are the core, and belong to nodes**: an area, a component or a block, under the brand's root areas (Styles, Components, Blocks, Iconography, Content, Accessibility, Brand assets). Each rule has a key, a guidance (`do`, `dont`, `caution`, `info`), an optional severity (`must`, `should`, `may`) and a body.
 - **Tokens are served compiled** for the project's dialect (`css`, `tailwind-v4` or `tailwind-v3`), ready to write as they come.
 - **Assets** (logo, fonts, icons, images, documents) come from `list_brand_assets`, each with a URL to download it from.
 - **The connection can narrow the tools**: `read_only=true` in its URL leaves only the reads, and `features` only those groups. A tool the connection does not list is excluded on purpose: skip its step and tell the user.
