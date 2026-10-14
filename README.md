@@ -9,7 +9,7 @@ Agent skills for [UI Rules](https://uirules.com): they teach a coding agent to b
 ## Install
 
 ```bash
-npx skills add UI-Rules/skills
+npx skills add ui-rules/skills
 ```
 
 The skill uses the UI Rules MCP server. Connect your agent to it from **Connect** in the [UI Rules app](https://app.uirules.com).

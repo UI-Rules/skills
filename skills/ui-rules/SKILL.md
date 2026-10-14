@@ -47,4 +47,4 @@ Done when the `uirules` tools are listed and one of them answers.
 
 ## When this skill is wrong
 
-If this skill gave guidance the tools contradict, follow the tools, tell the user, and suggest an issue at https://github.com/UI-Rules/skills/issues.
+If this skill gave guidance the tools contradict, follow the tools, tell the user, and suggest an issue at https://github.com/ui-rules/skills/issues.
